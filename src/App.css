@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'exo';
+    src: url('../assets/fonts/exo-20.ttf') ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
+    url('../assets/background/Pattern.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.App {
+    max-width: 1280px;
+    max-height: 680px;
+    margin: auto;
+}
+
+.header {
+    font-family: 'exo', arial;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 24px;
+}
+
+.cardsWrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+

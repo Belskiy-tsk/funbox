@@ -1,0 +1,26 @@
+{
+  "name": "funbox",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Belskiy-tsk/funbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Belskiy-tsk/funbox/issues"
+  },
+  "homepage": "https://github.com/Belskiy-tsk/funbox#readme",
+  "dependencies": {
+    "parcel": "^2.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
